@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: #fff;
+}
+.calcBody{
+  width: 250px;
+  margin: 0 auto;
+  background:#fff;
+  border-radius: 5px;
+  padding: 2px;
+  overflow: hidden;
+}
+.calcBody input{
+  vertical-align: top;
+  border: 0;
+  width: 94.4%;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 40px;
+  text-align: right;
+  outline: none;
+  border: 2px solid #282c34;
+}
+.keyBoared{
+  display: flex;
+  flex-wrap: wrap;
+}
+.keyBoared button{
+  font-size: 18px;
+  margin: 2px;
+  width: 58.5px;
+  height: 50px;
+}
+.keyBoared .cancel, .keyBoared .equal{
+  width: 121px;
+  color: red;
+  font-weight: bold;
+}
+.keyBoared .equal{
+  color: green;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #00800029;
+}
